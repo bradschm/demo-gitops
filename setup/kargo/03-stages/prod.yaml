@@ -15,7 +15,7 @@ spec:
     spec:
       vars:
         - name: gitRepo
-          value: https://github.com/kargobook/demo-gitops.git
+          value: https://github.com/bradschm/demo-gitops.git
       steps:
       - uses: git-clone
         as: clone
